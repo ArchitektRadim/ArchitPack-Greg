@@ -1,0 +1,298 @@
+{
+    "images":
+    {
+		    "panel":
+        {
+            "image" : "mainmenu:panel.png",
+            "posX" : -1203,
+            "posY" : -97,
+            "width" : 1400,
+            "height" : 150,
+            "alignment" : "center"
+        },
+            "gear":
+        {
+            "image" : "mainmenu:gears.png",
+            "posX" : -10,
+            "posY" : -450,
+            "width" : 250,
+            "height" : 750,
+            "alignment" : "left_center"
+        },
+            "title":
+        {
+            "image" : "mainmenu:apgreg.png",
+            "posX" : -195,
+            "posY" : -87,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "center"
+        }
+		
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+			"hoverText" : "§8Singleplayer",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : -75,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+			"hoverText" : "§8Multiplayer",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : -50,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:mods.png",
+			"tooltip" : "Mods",
+            "posX" : 6,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+        "folder":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:gamefolder.png",
+			"tooltip" : "Installation Folder",
+            "posX" : 42,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openFolder",
+                "folderName" : "/"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:options.png",
+			"tooltip" : "Options",
+            "posX" : -30,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+        "curse":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:curse.png",
+			"tooltip" : "Curse Page",
+            "posX" : 114,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://minecraft.curseforge.com/projects/architpack-greg"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit Game",
+			"hoverText" : "§8Quit Game",
+			"tooltip" : "I promise I'll be back.",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:longbutton.png",
+            "posX" : -30,
+            "posY" : 10,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+
+        "github":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:github.png",
+			"tooltip" : "Bug Report",
+            "posX" : 150,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/ArchitektRadim/ArchitPack-Greg/issues"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"hoverSound" : "mainmenu:hover",
+			"texture" : "mainmenu:language.png",
+			"tooltip" : "Language",
+            "posX" : 78,
+            "posY" : -20,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+			"texture" : "mainmenu:transparent.png",
+            "posX" : -140,
+            "posY" : -33,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB.",
+            "posX" : -108,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		
+		"music-credit":
+        {
+            "text" : "Music: Thorinair - Intricate Tactics",
+			"hoverText" : "§nMusic: Thorinair - Intricate Tactics",
+            "posX" : -178,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://thorinair.bandcamp.com/track/intricate-tactics"
+            }
+        },
+        
+		"modpack":
+        {
+            "text" : "ArchitPack Greg 1.4.0",
+            "posX" : 2,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+		"version":
+        {
+            "text" : "Minecraft 1.12.2",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+        "modsactive":
+        {
+            "text" : "#modsloaded# Mods Loaded, #modsactive# Active",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+		"anouncement":
+        {
+            "text":"web:https://pastebin.com/raw/rHX7fm7D",
+            "posX" : -60,
+            "posY" : -20,
+			"color" : -1,
+            "alignment" : "bottom_center"
+        },
+		
+        "warning":
+        {
+            "text" : "§cWARNING! GTCE Bees and Greg's Construct were removed.\nBackup your old world!",
+            "posX" : -311,
+            "posY" : 9,
+			"color" : -1,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    {
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 3,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
