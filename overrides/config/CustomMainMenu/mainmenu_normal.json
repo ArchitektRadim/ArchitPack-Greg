@@ -239,7 +239,7 @@
         
 		"modpack":
         {
-            "text" : "ArchitPack Greg 1.4.0",
+            "text" : "ArchitPack Greg 1.4.1",
             "posX" : 2,
             "posY" : -30,
             "color" : -1,
@@ -266,7 +266,7 @@
 		
 		"anouncement":
         {
-            "text":"web:https://pastebin.com/raw/rHX7fm7D",
+            "text":"web:https://pastebin.com/raw/KscqM3TE",
             "posX" : -60,
             "posY" : -20,
 			"color" : -1,
@@ -275,11 +275,26 @@
 		
         "warning":
         {
-            "text" : "§cWARNING! GTCE Bees and Greg's Construct were removed.\nBackup your old world!",
+            "text" : "",
             "posX" : -311,
             "posY" : 9,
 			"color" : -1,
             "alignment" : "top_center"
+        },
+
+        "survey":
+        {
+            "text" : "§cDO YOU WANT TiC IN THE PACK? - VOTE HERE!",
+            "hoverText" : "§c§nDO YOU WANT TiC IN THE PACK? - VOTE HERE!",
+            "posX" : -39,
+            "posY" : 35,
+            "color" : -1,
+            "alignment" : "center",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://strawpoll.com/x52sy3kfa"
+            }
         }
     },
     
